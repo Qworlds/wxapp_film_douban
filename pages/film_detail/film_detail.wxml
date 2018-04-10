@@ -1,0 +1,23 @@
+<!--pages/film_detail/film_detail.wxml-->
+<view class="container">
+  <video style="width: 100%;" poster="{{movie.cover}}" src="{{movie.video}}" controls />
+  <view class="movie-content">
+    <view class="title">
+      <text>{{movie.title}}</text>
+      <text class="title2">({{movie.raw_title}})</text>
+    </view>
+    <view class="type">
+      <text>豆瓣评分：{{movie.rate}}分 / 类型：{{movie.types}}</text>
+    </view>
+    <view class="pubdate">
+      上映时间: {{movie.pubdate}} 
+    </view>
+    <view class="tags">
+      <text wx:for="{{movie.tags}}" wx:key="{{index}}">{{item}}</text>
+    </view>
+    <view class="summary">
+      <text class="summary1">电影简介：</text>
+      <text>{{movie.summary}}</text>
+    </view>    
+  </view>
+</view>

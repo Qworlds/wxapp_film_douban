@@ -1,0 +1,52 @@
+/* pages/user/user.wxss */
+page {
+  height: 100%;
+  background-color: #eee;
+}
+
+.user_info {
+  padding: 40rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  
+}
+
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+  border: 1px solid #eee;
+}
+
+.name {
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.user_sex_male, .user_sex_female {
+     font-size: 25rpx;
+     color: rgb(102, 102, 102);
+      text-align: center;
+}
+
+.share {
+  padding: 40rpx 30rpx;
+  background-color: #fff;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+
+.share image {
+  width: 50rpx;
+  height: 50rpx;
+  float: right;
+  position: relative;  
+}
+
+

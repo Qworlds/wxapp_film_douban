@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/film_detail/film_detail",
+    "pages/share/share"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#20b2aa",
+    "navigationBarTextStyle": "bold",
+    "navigationBarTitleText": "豆瓣电影预告片汇总",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#20b2aa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "/assets/image/index.png",
+        "selectedIconPath": "/assets/image/index_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "",
+        "iconPath": "/assets/image/user.png",
+        "selectedIconPath": "/assets/image/user_active.png"
+      }
+    ]
+  }
+}
